@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Raleway:wght@300;500;700&family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller; 
+    color: #444749c5;
+}
+main{
+    display: flex;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+}
+
+.profile img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.info_profile{
+    display: flex;
+}
+
+.actions{
+    font-size:large;
+}
+
+.new_chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1.5px #BEC1BB;
+    border-top: solid 1.5px #BEC1BB;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.new_chat a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    background-color: #A491D2;
+    padding-left: 2em;
+    padding-right: 2em;
+    color:white;
+    margin:20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.new_chat a:hover{
+    text-decoration: none;
+    background-color: #CDC3E6;
+    color:white;
+    margin:20px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+.new_chat a:focus{
+    text-decoration: none;
+    background-color: #BEC1BB;
+    color:white;
+    margin:20px;
+    padding: 7px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.messeges{
+    background-color: #FFF;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1.5px #BEC1BB;
+    height: 110vh;
+}
+
+.messege{
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom: solid 1.5px #BEC1BB;
+padding: 7px;
+}
+
+.messege img{
+    width: 56.6px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info{
+    flex-basis: 150px;
+}
+
+
+
+.chat{
+    color: rgba(0, 0, 0, 0.795);
+    font-size: large;
+    display: flex;
+    background-color: #e8ebe46e;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 110vh;
+}
+
+.title{
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+.introchat img{
+    max-width: 300px;
+}
